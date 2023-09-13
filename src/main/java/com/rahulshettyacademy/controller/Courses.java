@@ -6,8 +6,8 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="Storage2")
-public class AllCourseData {
+@Table(name="Courses")
+public class Courses {
     @Column(name="course_name")
 	private String course_name;
     

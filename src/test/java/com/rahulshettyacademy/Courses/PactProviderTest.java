@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.web.server.LocalServerPort;
 
-import com.rahulshettyacademy.controller.AllCourseData;
+import com.rahulshettyacademy.controller.Courses;
 import com.rahulshettyacademy.repository.CoursesRepository;
 
 import au.com.dius.pact.provider.junit5.HttpTestTarget;
@@ -19,10 +19,7 @@ import au.com.dius.pact.provider.junit5.PactVerificationInvocationContextProvide
 import au.com.dius.pact.provider.junitsupport.Provider;
 import au.com.dius.pact.provider.junitsupport.State;
 import au.com.dius.pact.provider.junitsupport.StateChangeAction;
-import au.com.dius.pact.provider.junitsupport.loader.PactBroker;
 import au.com.dius.pact.provider.junitsupport.loader.PactFolder;
-import au.com.dius.pact.provider.junitsupport.loader.PactBrokerAuth;
-
 
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
@@ -100,7 +97,7 @@ public class PactProviderTest {
 		//to delete the appium record in database
 		
 		 
-		    Optional<AllCourseData> del =repository.findById(name);//mock
+		    Optional<Courses> del =repository.findById(name);//mock
 		    	
 		    if (del.isPresent()) {
 		    	repository.deleteById("Appium");
@@ -116,16 +113,16 @@ public class PactProviderTest {
 	{
 		////add appium record in database
 		String name =  (String)params.get("name");
-		 Optional<AllCourseData> del =repository.findById(name);//mock
+		 Optional<Courses> del =repository.findById(name);//mock
 	    	
 		    if (!del.isPresent()) {
 		    	
-		    	AllCourseData allCourseData = new AllCourseData();
-		    	allCourseData.setCourse_name("Appium");
-		    	allCourseData.setCategory("mobile");
-		    	allCourseData.setPrice(120);
-		    	allCourseData.setId("12");
-		    	repository.save(allCourseData);
+		    	Courses courses = new Courses();
+		    	courses.setCourse_name("Appium");
+		    	courses.setCategory("mobile");
+		    	courses.setPrice(120);
+		    	courses.setId("12");
+		    	repository.save(courses);
 		
 	}
 	

@@ -3,9 +3,9 @@ package com.rahulshettyacademy.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.rahulshettyacademy.controller.AllCourseData;
+import com.rahulshettyacademy.controller.Courses;
 
 @Repository
-public interface CoursesRepository extends JpaRepository<AllCourseData, String>{
+public interface CoursesRepository extends JpaRepository<Courses, String>{
 
 }

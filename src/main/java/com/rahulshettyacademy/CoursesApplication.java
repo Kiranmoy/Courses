@@ -7,7 +7,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.rahulshettyacademy.controller.AllCourseData;
+import com.rahulshettyacademy.controller.Courses;
 
 
 import com.rahulshettyacademy.repository.CoursesRepository;
@@ -26,7 +26,7 @@ public class CoursesApplication implements CommandLineRunner{
 
 	public void run(String[] args)
 	{
-		List<AllCourseData> lib= repository.findAll();
+		List<Courses> lib= repository.findAll();
 		System.out.println(lib.get(0).getCourse_name()+"is this");
 		
 
