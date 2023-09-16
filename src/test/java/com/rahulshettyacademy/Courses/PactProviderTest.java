@@ -92,7 +92,7 @@ public class PactProviderTest {
 	
 	{
 		
-		String name =  (String)params.get("name");
+		/*String name =  (String)params.get("name");
 		
 		//to delete the appium record in database
 		
@@ -101,7 +101,7 @@ public class PactProviderTest {
 		    	
 		    if (del.isPresent()) {
 		    	repository.deleteById("Appium");
-		    }
+		    }*/
 		
 		
 		
@@ -112,20 +112,20 @@ public class PactProviderTest {
 	
 	{
 		////add appium record in database
-		String name =  (String)params.get("name");
+		/*String name =  (String)params.get("name");
 		 Optional<Courses> del =repository.findById(name);//mock
-	    	
+
 		    if (!del.isPresent()) {
-		    	
+
 		    	Courses courses = new Courses();
 		    	courses.setCourse_name("Appium");
 		    	courses.setCategory("mobile");
 		    	courses.setPrice(120);
 		    	courses.setId("12");
 		    	repository.save(courses);
-		
+
 	}
-	
+	*/
 	
 	
 	

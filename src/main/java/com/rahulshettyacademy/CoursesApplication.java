@@ -27,6 +27,7 @@ public class CoursesApplication implements CommandLineRunner{
 	public void run(String[] args)
 	{
 		List<Courses> lib= repository.findAll();
+		System.out.println("IS EMPTY = " + lib.isEmpty());
 		System.out.println(lib.get(0).getCourse_name()+"is this");
 		
 

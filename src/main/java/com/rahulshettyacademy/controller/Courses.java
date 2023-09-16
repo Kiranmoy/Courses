@@ -8,17 +8,18 @@ import javax.persistence.Table;
 @Entity
 @Table(name="Courses")
 public class Courses {
-    @Column(name="course_name")
+	@Id
+	@Column(name="course_name")
 	private String course_name;
     
-    @Column(name="id")
+	@Column(name="id")
 	private String id;
  
-    @Column(name="price")
+	@Column(name="price")
 	private int price;
-    @Column(name="category")
+	@Column(name="category")
 	private String category;
-    @Id
+
 	public String getCourse_name() {
 		return course_name;
 	}
