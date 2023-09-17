@@ -7,7 +7,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.rahulshettyacademy.controller.Courses;
+import com.rahulshettyacademy.entity.Courses;
 
 
 import com.rahulshettyacademy.repository.CoursesRepository;

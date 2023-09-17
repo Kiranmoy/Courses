@@ -2,6 +2,7 @@ package com.rahulshettyacademy.controller;
 
 import java.util.List;
 
+import com.rahulshettyacademy.entity.Courses;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -17,39 +18,24 @@ import com.rahulshettyacademy.repository.CoursesRepository;
 @RestController
 public class AllCourseDetailsController {
 
+	@Autowired
+	CoursesRepository repository;
 
-@Autowired
-CoursesRepository repository;
-
-
-
-@CrossOrigin
+	@CrossOrigin
 	@GetMapping("/allCourseDetails")
-	public List<Courses> GetCourses()
-	{
-
+	public List<Courses> GetCourses(){
 	return repository.findAll();
-		
-		
 	}
 
-
-@CrossOrigin
-@RequestMapping("/getCourseByName/{name}")
-public Courses getBookById(@PathVariable(value="name")String name)
-{
-	try {
-		Courses lib =repository.findById(name).get();
-	return lib;
+	@CrossOrigin
+	@RequestMapping("/getCourseByName/{name}")
+	public Courses getBookById(@PathVariable(value="name")String name){
+		try {
+			Courses course =repository.findById(name).get();
+			return course;
+		}catch(Exception e){
+			throw new ResponseStatusException(HttpStatus.NOT_FOUND);
+		}
 	}
-	catch(Exception e)
-	{
-		throw new ResponseStatusException(HttpStatus.NOT_FOUND);
-	}
-}
-	
-	
-	
-	
 	
 }
