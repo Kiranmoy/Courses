@@ -2762,3 +2762,247 @@ Caused by: java.sql.SQLSyntaxErrorException: User sql12646163 already has more t
 2023-09-17 22:08:03.108  INFO 11180 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-09-17 22:08:03.109  INFO 11180 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2023-09-17 22:08:04.574  INFO 11180 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-09-17 22:16:08.239  INFO 19124 --- [main] c.rahulshettyacademy.CoursesApplication  : Starting CoursesApplication using Java 18.0.1.1 on EPINPUNW0254 with PID 19124 (D:\practice_workspace\java_space\rahul-shetty-pact-testing\Courses\target\classes started by Kiranmoy_Paul in D:\practice_workspace\java_space\rahul-shetty-pact-testing\Courses)
+2023-09-17 22:16:08.244  INFO 19124 --- [main] c.rahulshettyacademy.CoursesApplication  : No active profile set, falling back to default profiles: default
+2023-09-17 22:16:09.327  INFO 19124 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-17 22:16:09.422  INFO 19124 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 1 JPA repository interfaces.
+2023-09-17 22:16:10.211  INFO 19124 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9191 (http)
+2023-09-17 22:16:10.225  INFO 19124 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-17 22:16:10.225  INFO 19124 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-09-17 22:16:10.398  INFO 19124 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-17 22:16:10.399  INFO 19124 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1827 ms
+2023-09-17 22:16:10.403 TRACE 19124 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Added existing Servlet initializer bean 'dispatcherServletRegistration'; order=2147483647, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration.class]
+2023-09-17 22:16:10.417 TRACE 19124 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'characterEncodingFilter'; order=-2147483648, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/HttpEncodingAutoConfiguration.class]
+2023-09-17 22:16:10.418 TRACE 19124 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'formContentFilter'; order=-9900, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class]
+2023-09-17 22:16:10.418 TRACE 19124 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'requestContextFilter'; order=-105, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]
+2023-09-17 22:16:10.426 DEBUG 19124 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2023-09-17 22:16:10.427 DEBUG 19124 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2023-09-17 22:16:10.739  INFO 19124 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-17 22:16:10.829  INFO 19124 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2023-09-17 22:16:11.115  INFO 19124 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-09-17 22:16:11.284  INFO 19124 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-17 22:16:11.316  WARN 19124 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-09-17 22:16:12.896  INFO 19124 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-17 22:16:12.912  INFO 19124 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2023-09-17 22:16:14.244  INFO 19124 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-17 22:16:14.257  INFO 19124 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-17 22:16:14.613  WARN 19124 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-17 22:16:14.752 DEBUG 19124 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-09-17 22:16:14.822 TRACE 19124 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.r.c.AllCourseDetailsController:
+	{ [/getCourseByName/{name}]}: getBookById(String)
+	{GET [/allCourseDetails]}: GetCourses()
+2023-09-17 22:16:14.830 TRACE 19124 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-09-17 22:16:14.832 DEBUG 19124 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2023-09-17 22:16:14.859 DEBUG 19124 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2023-09-17 22:16:14.865 TRACE 19124 --- [main] o.s.w.s.f.support.RouterFunctionMapping  : 0 RouterFunction(s) in 'routerFunctionMapping'
+2023-09-17 22:16:14.886 TRACE 19124 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-09-17 22:16:14.887 TRACE 19124 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-09-17 22:16:14.887 DEBUG 19124 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-09-17 22:16:14.901 DEBUG 19124 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-09-17 22:16:15.021  INFO 19124 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9191 (http) with context path ''
+2023-09-17 22:16:15.033  INFO 19124 --- [main] c.rahulshettyacademy.CoursesApplication  : Started CoursesApplication in 7.335 seconds (JVM running for 7.895)
+2023-09-17 22:16:27.873  INFO 19124 --- [http-nio-9191-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-17 22:16:27.873  INFO 19124 --- [http-nio-9191-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-17 22:16:27.873 TRACE 19124 --- [http-nio-9191-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@7204d98f
+2023-09-17 22:16:27.873 TRACE 19124 --- [http-nio-9191-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@2b06681c
+2023-09-17 22:16:27.874 TRACE 19124 --- [http-nio-9191-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.theme.FixedThemeResolver@70e54ec3
+2023-09-17 22:16:27.874 TRACE 19124 --- [http-nio-9191-exec-1] o.s.web.servlet.DispatcherServlet        : Detected DefaultRequestToViewNameTranslator
+2023-09-17 22:16:27.874 TRACE 19124 --- [http-nio-9191-exec-1] o.s.web.servlet.DispatcherServlet        : Detected SessionFlashMapManager
+2023-09-17 22:16:27.874 DEBUG 19124 --- [http-nio-9191-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-09-17 22:16:27.874  INFO 19124 --- [http-nio-9191-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-09-17 22:16:27.884 TRACE 19124 --- [http-nio-9191-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/getCourseByName/KIRAN", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2023-09-17 22:16:27.890 TRACE 19124 --- [http-nio-9191-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.rahulshettyacademy.controller.AllCourseDetailsController#getBookById(String)
+2023-09-17 22:16:27.911 TRACE 19124 --- [http-nio-9191-exec-1] o.s.web.method.HandlerMethod             : Arguments: [KIRAN]
+2023-09-17 22:16:28.469 DEBUG 19124 --- [http-nio-9191-exec-1] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 404 NOT_FOUND]
+2023-09-17 22:16:28.469 TRACE 19124 --- [http-nio-9191-exec-1] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2023-09-17 22:16:28.469 DEBUG 19124 --- [http-nio-9191-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2023-09-17 22:16:28.476 TRACE 19124 --- [http-nio-9191-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2023-09-17 22:16:28.477 TRACE 19124 --- [http-nio-9191-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ [/error]}, { [/error], produces [text/html]}]
+2023-09-17 22:16:28.477 TRACE 19124 --- [http-nio-9191-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-09-17 22:16:28.480 TRACE 19124 --- [http-nio-9191-exec-1] o.s.web.method.HandlerMethod             : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@22678f9e]
+2023-09-17 22:16:28.493 DEBUG 19124 --- [http-nio-9191-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-17 22:16:28.495 TRACE 19124 --- [http-nio-9191-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sun Sep 17 22:16:28 IST 2023, status=404, error=Not Found, path=/getCourseByName/KIRAN}]
+2023-09-17 22:16:28.530 TRACE 19124 --- [http-nio-9191-exec-1] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2023-09-17 22:16:28.531 TRACE 19124 --- [http-nio-9191-exec-1] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2023-09-17 22:16:28.531 DEBUG 19124 --- [http-nio-9191-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2023-09-17 22:16:42.677 TRACE 19124 --- [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/getCourseByName/Microservices", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2023-09-17 22:16:42.677 TRACE 19124 --- [http-nio-9191-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.rahulshettyacademy.controller.AllCourseDetailsController#getBookById(String)
+2023-09-17 22:16:42.678 TRACE 19124 --- [http-nio-9191-exec-2] o.s.web.method.HandlerMethod             : Arguments: [Microservices]
+2023-09-17 22:16:43.225 DEBUG 19124 --- [http-nio-9191-exec-2] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 404 NOT_FOUND]
+2023-09-17 22:16:43.225 TRACE 19124 --- [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2023-09-17 22:16:43.226 DEBUG 19124 --- [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2023-09-17 22:16:43.226 TRACE 19124 --- [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2023-09-17 22:16:43.226 TRACE 19124 --- [http-nio-9191-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ [/error]}, { [/error], produces [text/html]}]
+2023-09-17 22:16:43.226 TRACE 19124 --- [http-nio-9191-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-09-17 22:16:43.227 TRACE 19124 --- [http-nio-9191-exec-2] o.s.web.method.HandlerMethod             : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@56c9f4b2]
+2023-09-17 22:16:43.227 DEBUG 19124 --- [http-nio-9191-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-17 22:16:43.227 TRACE 19124 --- [http-nio-9191-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sun Sep 17 22:16:43 IST 2023, status=404, error=Not Found, path=/getCourseByName/Microservices}]
+2023-09-17 22:16:43.228 TRACE 19124 --- [http-nio-9191-exec-2] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2023-09-17 22:16:43.228 TRACE 19124 --- [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2023-09-17 22:16:43.228 DEBUG 19124 --- [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2023-09-17 22:17:17.079 TRACE 19124 --- [http-nio-9191-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/getCourseByName/Appium", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2023-09-17 22:17:17.080 TRACE 19124 --- [http-nio-9191-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.rahulshettyacademy.controller.AllCourseDetailsController#getBookById(String)
+2023-09-17 22:17:17.081 TRACE 19124 --- [http-nio-9191-exec-3] o.s.web.method.HandlerMethod             : Arguments: [Appium]
+2023-09-17 22:17:17.655 DEBUG 19124 --- [http-nio-9191-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-17 22:17:17.656 TRACE 19124 --- [http-nio-9191-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.rahulshettyacademy.entity.Courses@6ab78fae]
+2023-09-17 22:17:17.658 TRACE 19124 --- [http-nio-9191-exec-3] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2023-09-17 22:17:17.658 TRACE 19124 --- [http-nio-9191-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2023-09-17 22:17:17.659 DEBUG 19124 --- [http-nio-9191-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2023-09-17 22:17:40.128 TRACE 19124 --- [http-nio-9191-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/allCourseDetails", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2023-09-17 22:17:40.129 TRACE 19124 --- [http-nio-9191-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.rahulshettyacademy.controller.AllCourseDetailsController#GetCourses()
+2023-09-17 22:17:40.129 TRACE 19124 --- [http-nio-9191-exec-5] o.s.web.method.HandlerMethod             : Arguments: []
+2023-09-17 22:17:40.684 DEBUG 19124 --- [http-nio-9191-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-17 22:17:40.685 TRACE 19124 --- [http-nio-9191-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.rahulshettyacademy.entity.Courses@131e6c2b, com.rahulshettyacademy.entity.Courses@5243c7f0, com.rahulshettyacademy.entity.Courses@42d9b0d8]]
+2023-09-17 22:17:40.688 TRACE 19124 --- [http-nio-9191-exec-5] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2023-09-17 22:17:40.688 TRACE 19124 --- [http-nio-9191-exec-5] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2023-09-17 22:17:40.688 DEBUG 19124 --- [http-nio-9191-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2023-09-17 22:22:13.424 TRACE 19124 --- [http-nio-9191-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/getCourseByName/Appium", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2023-09-17 22:22:13.425 TRACE 19124 --- [http-nio-9191-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.rahulshettyacademy.controller.AllCourseDetailsController#getBookById(String)
+2023-09-17 22:22:13.425 TRACE 19124 --- [http-nio-9191-exec-8] o.s.web.method.HandlerMethod             : Arguments: [Appium]
+2023-09-17 22:22:13.986 DEBUG 19124 --- [http-nio-9191-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-17 22:22:13.987 TRACE 19124 --- [http-nio-9191-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.rahulshettyacademy.entity.Courses@4a2af55d]
+2023-09-17 22:22:13.988 TRACE 19124 --- [http-nio-9191-exec-8] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2023-09-17 22:22:13.988 TRACE 19124 --- [http-nio-9191-exec-8] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2023-09-17 22:22:13.988 DEBUG 19124 --- [http-nio-9191-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2023-09-17 22:22:17.773 TRACE 19124 --- [http-nio-9191-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/allCourseDetails", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2023-09-17 22:22:17.773 TRACE 19124 --- [http-nio-9191-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.rahulshettyacademy.controller.AllCourseDetailsController#GetCourses()
+2023-09-17 22:22:17.774 TRACE 19124 --- [http-nio-9191-exec-10] o.s.web.method.HandlerMethod             : Arguments: []
+2023-09-17 22:22:18.333 DEBUG 19124 --- [http-nio-9191-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-17 22:22:18.334 TRACE 19124 --- [http-nio-9191-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.rahulshettyacademy.entity.Courses@1ef85f3c, com.rahulshettyacademy.entity.Courses@5ab4ddbd, com.rahulshettyacademy.entity.Courses@2facc681]]
+2023-09-17 22:22:18.335 TRACE 19124 --- [http-nio-9191-exec-10] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2023-09-17 22:22:18.335 TRACE 19124 --- [http-nio-9191-exec-10] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2023-09-17 22:22:18.335 DEBUG 19124 --- [http-nio-9191-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2023-09-17 22:22:41.008  INFO 19124 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-17 22:22:41.010  INFO 19124 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-17 22:22:41.013  INFO 19124 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-09-17 22:22:44.881  INFO 20648 --- [main] c.rahulshettyacademy.CoursesApplication  : Starting CoursesApplication using Java 18.0.1.1 on EPINPUNW0254 with PID 20648 (D:\practice_workspace\java_space\rahul-shetty-pact-testing\Courses\target\classes started by Kiranmoy_Paul in D:\practice_workspace\java_space\rahul-shetty-pact-testing\Courses)
+2023-09-17 22:22:44.883  INFO 20648 --- [main] c.rahulshettyacademy.CoursesApplication  : No active profile set, falling back to default profiles: default
+2023-09-17 22:22:45.678  INFO 20648 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-17 22:22:45.733  INFO 20648 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+2023-09-17 22:22:46.324  INFO 20648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9191 (http)
+2023-09-17 22:22:46.334  INFO 20648 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-17 22:22:46.334  INFO 20648 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-09-17 22:22:46.459  INFO 20648 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-17 22:22:46.459  INFO 20648 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1325 ms
+2023-09-17 22:22:46.462 TRACE 20648 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Added existing Servlet initializer bean 'dispatcherServletRegistration'; order=2147483647, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration.class]
+2023-09-17 22:22:46.472 TRACE 20648 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'characterEncodingFilter'; order=-2147483648, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/HttpEncodingAutoConfiguration.class]
+2023-09-17 22:22:46.472 TRACE 20648 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'formContentFilter'; order=-9900, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class]
+2023-09-17 22:22:46.472 TRACE 20648 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'requestContextFilter'; order=-105, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]
+2023-09-17 22:22:46.476 DEBUG 20648 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2023-09-17 22:22:46.476 DEBUG 20648 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2023-09-17 22:22:46.658  INFO 20648 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-17 22:22:46.703  INFO 20648 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2023-09-17 22:22:46.847  INFO 20648 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-09-17 22:22:46.958  INFO 20648 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-17 22:22:46.963  WARN 20648 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-09-17 22:22:48.234  INFO 20648 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-17 22:22:48.244  INFO 20648 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2023-09-17 22:22:49.401  INFO 20648 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-17 22:22:49.410  INFO 20648 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-17 22:22:49.755  WARN 20648 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-17 22:22:49.910 DEBUG 20648 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-09-17 22:22:50.003 TRACE 20648 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.r.c.AllCourseDetailsController:
+	{ [/getCourseByName/{name}]}: getBookById(String)
+	{GET [/allCourseDetails]}: GetCourses()
+2023-09-17 22:22:50.008 TRACE 20648 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-09-17 22:22:50.011 DEBUG 20648 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2023-09-17 22:22:50.034 DEBUG 20648 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2023-09-17 22:22:50.040 TRACE 20648 --- [main] o.s.w.s.f.support.RouterFunctionMapping  : 0 RouterFunction(s) in 'routerFunctionMapping'
+2023-09-17 22:22:50.059 TRACE 20648 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-09-17 22:22:50.059 TRACE 20648 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-09-17 22:22:50.059 DEBUG 20648 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-09-17 22:22:50.071 DEBUG 20648 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-09-17 22:22:50.259  INFO 20648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9191 (http) with context path ''
+2023-09-17 22:22:50.274  INFO 20648 --- [main] c.rahulshettyacademy.CoursesApplication  : Started CoursesApplication in 5.89 seconds (JVM running for 6.35)
+2023-09-17 22:23:29.572  INFO 20648 --- [http-nio-9191-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-17 22:23:29.573  INFO 20648 --- [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-17 22:23:29.573 TRACE 20648 --- [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@1d33e72e
+2023-09-17 22:23:29.573 TRACE 20648 --- [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@7b9fea11
+2023-09-17 22:23:29.573 TRACE 20648 --- [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.theme.FixedThemeResolver@7dfec0bc
+2023-09-17 22:23:29.574 TRACE 20648 --- [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Detected DefaultRequestToViewNameTranslator
+2023-09-17 22:23:29.574 TRACE 20648 --- [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Detected SessionFlashMapManager
+2023-09-17 22:23:29.574 DEBUG 20648 --- [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-09-17 22:23:29.574  INFO 20648 --- [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-09-17 22:23:29.583 TRACE 20648 --- [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/allCourseDetails", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2023-09-17 22:23:29.591 TRACE 20648 --- [http-nio-9191-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.rahulshettyacademy.controller.AllCourseDetailsController#GetCourses()
+2023-09-17 22:23:29.597 TRACE 20648 --- [http-nio-9191-exec-2] o.s.web.method.HandlerMethod             : Arguments: []
+2023-09-17 22:23:30.203 DEBUG 20648 --- [http-nio-9191-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-17 22:23:30.203 TRACE 20648 --- [http-nio-9191-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.rahulshettyacademy.entity.Courses@764f37b8, com.rahulshettyacademy.entity.Courses@702cfbd6, com.rahulshettyacademy.entity.Courses@6f4186ca]]
+2023-09-17 22:23:30.246 TRACE 20648 --- [http-nio-9191-exec-2] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2023-09-17 22:23:30.246 TRACE 20648 --- [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2023-09-17 22:23:30.246 DEBUG 20648 --- [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2023-09-17 22:23:33.616 TRACE 20648 --- [http-nio-9191-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/getCourseByName/Appium", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2023-09-17 22:23:33.617 TRACE 20648 --- [http-nio-9191-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.rahulshettyacademy.controller.AllCourseDetailsController#getBookById(String)
+2023-09-17 22:23:33.637 TRACE 20648 --- [http-nio-9191-exec-3] o.s.web.method.HandlerMethod             : Arguments: [Appium]
+2023-09-17 22:23:34.217 DEBUG 20648 --- [http-nio-9191-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-17 22:23:34.217 TRACE 20648 --- [http-nio-9191-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.rahulshettyacademy.entity.Courses@525e58a4]
+2023-09-17 22:23:34.219 TRACE 20648 --- [http-nio-9191-exec-3] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2023-09-17 22:23:34.219 TRACE 20648 --- [http-nio-9191-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2023-09-17 22:23:34.220 DEBUG 20648 --- [http-nio-9191-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2023-09-17 22:23:38.008 TRACE 20648 --- [http-nio-9191-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/allCourseDetails", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2023-09-17 22:23:38.008 TRACE 20648 --- [http-nio-9191-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.rahulshettyacademy.controller.AllCourseDetailsController#GetCourses()
+2023-09-17 22:23:38.009 TRACE 20648 --- [http-nio-9191-exec-4] o.s.web.method.HandlerMethod             : Arguments: []
+2023-09-17 22:23:38.574 DEBUG 20648 --- [http-nio-9191-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-17 22:23:38.574 TRACE 20648 --- [http-nio-9191-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.rahulshettyacademy.entity.Courses@3438fa1e, com.rahulshettyacademy.entity.Courses@5f984edd, com.rahulshettyacademy.entity.Courses@5c609d3]]
+2023-09-17 22:23:38.575 TRACE 20648 --- [http-nio-9191-exec-4] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2023-09-17 22:23:38.576 TRACE 20648 --- [http-nio-9191-exec-4] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2023-09-17 22:23:38.576 DEBUG 20648 --- [http-nio-9191-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2023-09-17 22:23:38.586 TRACE 20648 --- [http-nio-9191-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/allCourseDetails", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2023-09-17 22:23:38.587 TRACE 20648 --- [http-nio-9191-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.rahulshettyacademy.controller.AllCourseDetailsController#GetCourses()
+2023-09-17 22:23:38.588 TRACE 20648 --- [http-nio-9191-exec-5] o.s.web.method.HandlerMethod             : Arguments: []
+2023-09-17 22:23:39.037 DEBUG 20648 --- [http-nio-9191-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-17 22:23:39.038 TRACE 20648 --- [http-nio-9191-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.rahulshettyacademy.entity.Courses@1d66e2ec, com.rahulshettyacademy.entity.Courses@2faf3608, com.rahulshettyacademy.entity.Courses@2cb17e7a]]
+2023-09-17 22:23:39.039 TRACE 20648 --- [http-nio-9191-exec-5] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2023-09-17 22:23:39.039 TRACE 20648 --- [http-nio-9191-exec-5] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2023-09-17 22:23:39.040 DEBUG 20648 --- [http-nio-9191-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2023-09-17 22:23:39.050 TRACE 20648 --- [http-nio-9191-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/allCourseDetails", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2023-09-17 22:23:39.051 TRACE 20648 --- [http-nio-9191-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.rahulshettyacademy.controller.AllCourseDetailsController#GetCourses()
+2023-09-17 22:23:39.052 TRACE 20648 --- [http-nio-9191-exec-6] o.s.web.method.HandlerMethod             : Arguments: []
+2023-09-17 22:23:39.505 DEBUG 20648 --- [http-nio-9191-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-17 22:23:39.505 TRACE 20648 --- [http-nio-9191-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.rahulshettyacademy.entity.Courses@6c455a49, com.rahulshettyacademy.entity.Courses@327729a6, com.rahulshettyacademy.entity.Courses@5d63145a]]
+2023-09-17 22:23:39.506 TRACE 20648 --- [http-nio-9191-exec-6] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2023-09-17 22:23:39.507 TRACE 20648 --- [http-nio-9191-exec-6] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2023-09-17 22:23:39.507 DEBUG 20648 --- [http-nio-9191-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2023-09-17 22:23:39.515 TRACE 20648 --- [http-nio-9191-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/allCourseDetails", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2023-09-17 22:23:39.516 TRACE 20648 --- [http-nio-9191-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.rahulshettyacademy.controller.AllCourseDetailsController#GetCourses()
+2023-09-17 22:23:39.517 TRACE 20648 --- [http-nio-9191-exec-7] o.s.web.method.HandlerMethod             : Arguments: []
+2023-09-17 22:23:39.980 DEBUG 20648 --- [http-nio-9191-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-17 22:23:39.980 TRACE 20648 --- [http-nio-9191-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.rahulshettyacademy.entity.Courses@479030bf, com.rahulshettyacademy.entity.Courses@198b60b9, com.rahulshettyacademy.entity.Courses@761d1016]]
+2023-09-17 22:23:39.981 TRACE 20648 --- [http-nio-9191-exec-7] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2023-09-17 22:23:39.981 TRACE 20648 --- [http-nio-9191-exec-7] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2023-09-17 22:23:39.982 DEBUG 20648 --- [http-nio-9191-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2023-09-17 22:23:39.992 TRACE 20648 --- [http-nio-9191-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/allCourseDetails", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2023-09-17 22:23:39.994 TRACE 20648 --- [http-nio-9191-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.rahulshettyacademy.controller.AllCourseDetailsController#GetCourses()
+2023-09-17 22:23:39.995 TRACE 20648 --- [http-nio-9191-exec-8] o.s.web.method.HandlerMethod             : Arguments: []
+2023-09-17 22:23:40.447 DEBUG 20648 --- [http-nio-9191-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-17 22:23:40.448 TRACE 20648 --- [http-nio-9191-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.rahulshettyacademy.entity.Courses@6e441b77, com.rahulshettyacademy.entity.Courses@38745307, com.rahulshettyacademy.entity.Courses@5fe0d634]]
+2023-09-17 22:23:40.449 TRACE 20648 --- [http-nio-9191-exec-8] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2023-09-17 22:23:40.449 TRACE 20648 --- [http-nio-9191-exec-8] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2023-09-17 22:23:40.450 DEBUG 20648 --- [http-nio-9191-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2023-09-17 22:23:40.458 TRACE 20648 --- [http-nio-9191-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/allCourseDetails", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2023-09-17 22:23:40.458 TRACE 20648 --- [http-nio-9191-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.rahulshettyacademy.controller.AllCourseDetailsController#GetCourses()
+2023-09-17 22:23:40.459 TRACE 20648 --- [http-nio-9191-exec-9] o.s.web.method.HandlerMethod             : Arguments: []
+2023-09-17 22:23:40.920 DEBUG 20648 --- [http-nio-9191-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-17 22:23:40.920 TRACE 20648 --- [http-nio-9191-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.rahulshettyacademy.entity.Courses@39a0895f, com.rahulshettyacademy.entity.Courses@1cc1d13f, com.rahulshettyacademy.entity.Courses@853f760]]
+2023-09-17 22:23:40.922 TRACE 20648 --- [http-nio-9191-exec-9] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2023-09-17 22:23:40.922 TRACE 20648 --- [http-nio-9191-exec-9] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2023-09-17 22:23:40.922 DEBUG 20648 --- [http-nio-9191-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2023-09-17 22:23:40.930 TRACE 20648 --- [http-nio-9191-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/allCourseDetails", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2023-09-17 22:23:40.931 TRACE 20648 --- [http-nio-9191-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.rahulshettyacademy.controller.AllCourseDetailsController#GetCourses()
+2023-09-17 22:23:40.932 TRACE 20648 --- [http-nio-9191-exec-10] o.s.web.method.HandlerMethod             : Arguments: []
+2023-09-17 22:23:41.402 DEBUG 20648 --- [http-nio-9191-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-17 22:23:41.402 TRACE 20648 --- [http-nio-9191-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.rahulshettyacademy.entity.Courses@4104062f, com.rahulshettyacademy.entity.Courses@389ed68f, com.rahulshettyacademy.entity.Courses@700f2424]]
+2023-09-17 22:23:41.403 TRACE 20648 --- [http-nio-9191-exec-10] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2023-09-17 22:23:41.403 TRACE 20648 --- [http-nio-9191-exec-10] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2023-09-17 22:23:41.403 DEBUG 20648 --- [http-nio-9191-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2023-09-17 22:23:49.848  INFO 20648 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-17 22:23:49.851  INFO 20648 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-17 22:23:57.864  INFO 20648 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
