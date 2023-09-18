@@ -1282,3 +1282,66 @@ Caused by: java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length
 2023-09-18 02:12:36.713  INFO 12036 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-09-18 02:12:36.716  INFO 12036 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2023-09-18 02:12:36.752  INFO 12036 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-09-18 08:18:24.589  INFO 9900 --- [main] c.rahulshettyacademy.CoursesApplication  : Starting CoursesApplication using Java 18.0.1.1 on EPINPUNW0254 with PID 9900 (D:\practice_workspace\java_space\rahul-shetty-pact-testing\Courses\target\classes started by Kiranmoy_Paul in D:\practice_workspace\java_space\rahul-shetty-pact-testing\Courses)
+2023-09-18 08:18:24.594  INFO 9900 --- [main] c.rahulshettyacademy.CoursesApplication  : No active profile set, falling back to default profiles: default
+2023-09-18 08:18:26.625  INFO 9900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-18 08:18:26.761  INFO 9900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 104 ms. Found 1 JPA repository interfaces.
+2023-09-18 08:18:28.283  INFO 9900 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9191 (http)
+2023-09-18 08:18:28.314  INFO 9900 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-18 08:18:28.315  INFO 9900 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-09-18 08:18:28.678  INFO 9900 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-18 08:18:28.678  INFO 9900 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3523 ms
+2023-09-18 08:18:28.686 TRACE 9900 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Added existing Servlet initializer bean 'dispatcherServletRegistration'; order=2147483647, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration.class]
+2023-09-18 08:18:28.708 TRACE 9900 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'characterEncodingFilter'; order=-2147483648, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/HttpEncodingAutoConfiguration.class]
+2023-09-18 08:18:28.708 TRACE 9900 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'formContentFilter'; order=-9900, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class]
+2023-09-18 08:18:28.708 TRACE 9900 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Created Filter initializer for bean 'requestContextFilter'; order=-105, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]
+2023-09-18 08:18:28.715 DEBUG 9900 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2023-09-18 08:18:28.716 DEBUG 9900 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2023-09-18 08:18:29.421  INFO 9900 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-18 08:18:29.577  INFO 9900 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2023-09-18 08:18:30.013  INFO 9900 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-09-18 08:18:30.289  INFO 9900 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-18 08:18:30.302  WARN 9900 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2023-09-18 08:18:31.242  INFO 9900 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-18 08:18:31.305  INFO 9900 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2023-09-18 08:18:36.083  INFO 9900 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-18 08:18:36.094  INFO 9900 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-18 08:18:36.512  WARN 9900 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-18 08:18:36.756 DEBUG 9900 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-09-18 08:18:36.878 TRACE 9900 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.r.c.AllCourseDetailsController:
+	{ [/getCourseByName/{name}]}: getBookById(String)
+	{GET [/allCourseDetails]}: GetCourses()
+2023-09-18 08:18:36.887 TRACE 9900 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-09-18 08:18:36.890 DEBUG 9900 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2023-09-18 08:18:36.922 DEBUG 9900 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2023-09-18 08:18:36.930 TRACE 9900 --- [main] o.s.w.s.f.support.RouterFunctionMapping  : 0 RouterFunction(s) in 'routerFunctionMapping'
+2023-09-18 08:18:36.950 TRACE 9900 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-09-18 08:18:36.951 TRACE 9900 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-09-18 08:18:36.951 DEBUG 9900 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-09-18 08:18:36.970 DEBUG 9900 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-09-18 08:18:37.173  INFO 9900 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9191 (http) with context path ''
+2023-09-18 08:18:37.194  INFO 9900 --- [main] c.rahulshettyacademy.CoursesApplication  : Started CoursesApplication in 13.617 seconds (JVM running for 14.751)
+2023-09-18 08:19:27.788  INFO 9900 --- [http-nio-9191-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-18 08:19:27.789  INFO 9900 --- [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-18 08:19:27.789 TRACE 9900 --- [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@24e31f06
+2023-09-18 08:19:27.789 TRACE 9900 --- [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@10df1f34
+2023-09-18 08:19:27.789 TRACE 9900 --- [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.theme.FixedThemeResolver@4a977146
+2023-09-18 08:19:27.791 TRACE 9900 --- [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Detected DefaultRequestToViewNameTranslator
+2023-09-18 08:19:27.792 TRACE 9900 --- [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Detected SessionFlashMapManager
+2023-09-18 08:19:27.793 DEBUG 9900 --- [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-09-18 08:19:27.793  INFO 9900 --- [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-09-18 08:19:27.805 TRACE 9900 --- [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/allCourseDetails", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2023-09-18 08:19:27.817 TRACE 9900 --- [http-nio-9191-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.rahulshettyacademy.controller.AllCourseDetailsController#GetCourses()
+2023-09-18 08:19:27.834 TRACE 9900 --- [http-nio-9191-exec-2] o.s.web.method.HandlerMethod             : Arguments: []
+2023-09-18 08:19:27.863 DEBUG 9900 --- [http-nio-9191-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-18 08:19:27.863 TRACE 9900 --- [http-nio-9191-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.rahulshettyacademy.entity.Courses@167002c6, com.rahulshettyacademy.entity.Courses@15b092d9, com.rahulshettyacademy.entity.Courses@24432afc]]
+2023-09-18 08:19:27.966 TRACE 9900 --- [http-nio-9191-exec-2] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2023-09-18 08:19:27.967 TRACE 9900 --- [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2023-09-18 08:19:27.967 DEBUG 9900 --- [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2023-09-18 08:19:39.883  INFO 9900 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-18 08:19:39.886  INFO 9900 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-18 08:19:39.917  INFO 9900 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
