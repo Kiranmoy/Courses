@@ -28,9 +28,9 @@ import au.com.dius.pact.provider.junitsupport.loader.PactFolder;
 //@PactFolder("pacts")
 @PactBroker(
 	url="https://kiranmoypaul.pactflow.io/",
-	authentication= @PactBrokerAuth(token="UFU6rm-beAO4-Xc2JPk7QQ"),
-	enablePendingPacts = "true",
-	providerTags = "master"
+	authentication= @PactBrokerAuth(token="UFU6rm-beAO4-Xc2JPk7QQ")
+	/*enablePendingPacts = "true",
+	providerTags = "master"*/
 )
 public class PactProviderTest {
 	@LocalServerPort
