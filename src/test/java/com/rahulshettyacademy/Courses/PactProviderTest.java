@@ -2,6 +2,9 @@ package com.rahulshettyacademy.Courses;
 
 import java.util.Map;
 
+import au.com.dius.pact.provider.junitsupport.loader.PactBroker;
+import au.com.dius.pact.provider.junitsupport.loader.PactBrokerAuth;
+import au.com.dius.pact.provider.junitsupport.loader.VersionSelector;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.TestTemplate;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -22,9 +25,13 @@ import au.com.dius.pact.provider.junitsupport.loader.PactFolder;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @Provider("CoursesCatalogue")
-@PactFolder("pacts")//url
-//@PactBroker(url="https://rahulshettyacademy.pactflow.io/",
-//authentication= @PactBrokerAuth(token="DU4SAEwbk3UXXTr05cF1Kg"))
+//@PactFolder("pacts")
+@PactBroker(
+	url="https://kiranmoypaul.pactflow.io/",
+	authentication= @PactBrokerAuth(token="UFU6rm-beAO4-Xc2JPk7QQ"),
+	enablePendingPacts = "false",
+	providerTags = "master"
+)
 public class PactProviderTest {
 	@LocalServerPort
 	public int port;
@@ -53,24 +60,14 @@ public class PactProviderTest {
 	//   -  /getCourseName/Appium () -> {name -appium, id="", price ="}
 	//      /getCourseName/Appium - > { msg : course do not exist}
 	
-	@State(value= "Course Appium exist",action= StateChangeAction.SETUP)
-	public void appiumCourseExist()
+	@State(value= "appium course exists",action= StateChangeAction.SETUP)
+	public void appiumCourseExist()	{ }
 	
-	{
-		//appium
-	}
-	
-	@State(value= "Course Appium exist",action= StateChangeAction.TEARDOWN)
-	public void appiumCourseExistTearDown()
-	
-	{
-		//
-	}
+	@State(value= "appium course exists",action= StateChangeAction.TEARDOWN)
+	public void appiumCourseExistTearDown(){}
 	
 	@State(value= "Course Appium does not exist",action= StateChangeAction.SETUP)
-	public void appiumCourseDoNotExist(Map<String,Object>params)
-	
-	{
+	public void appiumCourseDoNotExist(Map<String,Object>params){
 		
 		/*String name =  (String)params.get("name");
 		
@@ -88,9 +85,7 @@ public class PactProviderTest {
 	}
 	
 	@State(value= "Course Appium does not exist",action= StateChangeAction.TEARDOWN)
-	public void appiumCourseDoNotExistTearDown(Map<String,Object>params)
-	
-	{
+	public void appiumCourseDoNotExistTearDown(Map<String,Object>params){
 		////add appium record in database
 		/*String name =  (String)params.get("name");
 		 Optional<Courses> del =repository.findById(name);//mock
