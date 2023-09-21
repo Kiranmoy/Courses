@@ -29,7 +29,7 @@ import au.com.dius.pact.provider.junitsupport.loader.PactFolder;
 @PactBroker(
 	url="https://kiranmoypaul.pactflow.io/",
 	authentication= @PactBrokerAuth(token="UFU6rm-beAO4-Xc2JPk7QQ"),
-	enablePendingPacts = "false",
+	enablePendingPacts = "true",
 	providerTags = "master"
 )
 public class PactProviderTest {
@@ -66,7 +66,7 @@ public class PactProviderTest {
 	@State(value= "appium course exists",action= StateChangeAction.TEARDOWN)
 	public void appiumCourseExistTearDown(){}
 	
-	@State(value= "Course Appium does not exist",action= StateChangeAction.SETUP)
+	@State(value= "course appium not exists",action= StateChangeAction.SETUP)
 	public void appiumCourseDoNotExist(Map<String,Object>params){
 		
 		/*String name =  (String)params.get("name");
@@ -84,7 +84,7 @@ public class PactProviderTest {
 		
 	}
 	
-	@State(value= "Course Appium does not exist",action= StateChangeAction.TEARDOWN)
+	@State(value= "course appium not exists",action= StateChangeAction.TEARDOWN)
 	public void appiumCourseDoNotExistTearDown(Map<String,Object>params){
 		////add appium record in database
 		/*String name =  (String)params.get("name");
